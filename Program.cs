@@ -8,6 +8,7 @@ internal class Program
         d.Boy = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("En Giriniz:");
         d.En = Convert.ToInt32(Console.ReadLine());
+
         Console.WriteLine("Boy:" + d.Boy + " " + "En:" + d.En);
         Console.WriteLine("Alan:");
         Console.WriteLine(d.alan());
